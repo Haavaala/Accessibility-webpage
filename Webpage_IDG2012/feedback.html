@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-to-content" href="#content">Skip to main content</a>
+
+    <nav class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./History.html">History</a></li>
+            <li><a href="./Attractions.html">Attractions</a></li>
+            <li><a href="./images.html">Images</a></li>
+            <li><a href="./facts.html">Facts</a></li>
+            <li><a href="./Music.html">Music</a></li>
+            <li><a href="./videoes.html">Videoes</a></li>
+            <li><a href="./feedback.html">feedback</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./History.html">History</a></li>
+          <li><a href="./Attractions.html">Attractions</a></li>
+          <li><a href="./images.html">Images</a></li>
+          <li><a href="./facts.html">Facts</a></li>
+          <li><a href="./Music.html">Music</a></li>
+          <li><a href="./videoes.html">Videoes</a></li>
+          <li><a href="./feedback.html">feedback</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="content">
+      <h1>Your favorite thing about Fredrikstad</h1>
+
+      <!-- Code for the form with input for firstname, lastname and feedback -->
+      <form>
+        <label for="fname">Firstname</label>
+        <input
+          type="text"
+          name="firstname"
+          id="fname"
+          title="please provide the correct firstname"
+          required
+          aria-invalid="true"
+        />
+        <label for="last">Lastname</label>
+        <input
+          type="text"
+          name="lastname"
+          id="last"
+          title="please provide the correct last name"
+          required
+          aria-invalid="true"
+        />
+        <label for="write">Feedback</label>
+        <textarea
+          name="feedback"
+          id="write"
+          cols="30"
+          rows="10"
+          title="pleace dont leave this field empty"
+          required
+          aria-invalid="true"
+        ></textarea>
+        <button type="submit" value="Send">Send</button>
+      </form>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

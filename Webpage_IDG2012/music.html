@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <a class="skip-to-content" href="#content">Skip to main
+        content</a>
+    
+        <nav class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Menu
+                </button>
+                <div class="dropdown-content">
+                    <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./History.html">History</a></li>
+                <li><a href="./Attractions.html">Attractions</a></li>
+                <li><a href="./images.html">Images</a></li>
+                <li><a href="./facts.html">Facts</a></li>
+                <li><a href="./Music.html">Music</a></li>
+                <li><a href="./videoes.html">Videoes</a></li>
+                <li><a href="./feedback.html">feedback</a></li>
+            </ul>
+                </div>
+            </div>
+            <div class="navbar-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./History.html">History</a></li>
+                <li><a href="./Attractions.html">Attractions</a></li>
+                <li><a href="./images.html">Images</a></li>
+                <li><a href="./facts.html">Facts</a></li>
+                <li><a href="./Music.html">Music</a></li>
+                <li><a href="./videoes.html">Videoes</a></li>
+                <li><a href="./feedback.html">feedback</a></li>
+            </ul>
+        </div>
+        </nav>
+        
+        <main id="content">
+        <h1>Music from Fredrikstad</h1>
+
+        <!-- container for the audio file, image of the artist and controls  -->
+        <div class="music--container">
+        <div class="music">
+        <h2 tabindex="0">En godt stekt pizza</h2>
+        <img tabindex="0" class="staysman" src="./images/staysman.png" alt="Image of the musician Staysman">
+        
+        <section class="player">
+            <audio class="audio" id="stekt">
+                <source src="./Music/staysman.mp3" type="audio/mp3">
+            </audio>
+            <div class="controls">
+                <button class="playpause">Play</button>
+                <button class="stop">Stop</button>
+                <label for="volume">Adjust volume</label>
+                <input aria-label="volume adjuster" class="volume" type="range"></input>
+                <button class="rwd">Backward</button>
+                <button class="fwd">Forward</button>
+                <div class="time">00:00</div>
+            </div>
+            </section>
+            <!-- button that displays the lyrics of the song -->
+        <button tabindex="0" class="pizza">View Lyrics</button>
+        <div class="stektPizza">
+            <p>Han heter roger
+                Når det er snakk om fest
+                Har han alltid blandavann
+                Og roger kom seg kun på jobb når roger gadd
+                Han kosa sæ som trugda
+                Han kosa sæ som blakk
+                Og ingen visste åssn han fikk råd til alle drinkene han drakk</p>
+                <p>Syng rara alle mann
+                    Ta med deg blandevann
+                    Og drekk dæ te møkkamann
+                    Syng rara alle mann
+                    Ta med deg blandevann
+                    Å drekk dæ te møkkamann
+                    Syng rara alle mann
+                    Ta med deg blandevann
+                    Å drekk dæ te møkkamann (jiiiihaah)
+                    Syng rara alle mann
+                    Ta med deg blandevann
+                    Å drekk dæ te møkkamann
+                    Tre to en dans</p>
+                    <p>Han heter leif
+                        Og festen til leif tok aldri helt slutt
+                        Hadde festa hele natta uansett om han ble skutt
+                        I løkkekonkuranser
+                        Var det null som hadde sjangs
+                        Han klikker sånn på bingo'n
+                        Tre to en dans</p>
+                        <p>Syng rara alle mann
+                            Ta med deg blandevann
+                            Å drekk dæ te møkkamann
+                            Syng rara alle mann
+                            Ta med deg blandevann
+                            Å drekk dæ te møkkamann
+                            Syng rara alle mann
+                            Ta med deg blandevann
+                            Å drekk dæ te møkkamann (jiihaah)
+                            Syng rara alle mann
+                            Ta med deg blandevann
+                            Å drekk dæ te møkkamann
+                            Vær så snill å gi mæ</p>
+                            <p>En godt stekt pizza
+                                Og en blodtrimma traktor
+                                En godt stekt pizza
+                                Og en blodtrimma traktor (jiiihaah)
+                                En godt stekt pizza
+                                Og en blodtrimma traktor
+                                En godt stekt pizza
+                                Og en blodtrimma traktor
+                                Det er så mange sjuke mennesker her i kveld
+                                Jeg blir helt glad inni hjertet mitt
+                                Hah hah hah</p>
+                                <p>Få høre
+                                    En godt stekt pizza
+                                    En godt stekt pizza
+                                    En godt stekt pizza
+                                    En godt stekt pizza
+                                    En godt stekt pizza
+                                    Og en blodtrimma traktor
+                                    En godt stekt pizza
+                                    Og en blodtrimma traktor
+                                    En godt stekt pizza
+                                    Og en blodtrimma traktor
+                                    En godt stekt pizza
+                                    Og en blodtrimma traktor
+                                    Hahahaha</p>
+        </div>
+        </div>
+        </div>
+        </main>
+            <script src="./script.js"></script>
+            <script src="./play.js"></script>
+</body>
+
+</html>
